@@ -254,3 +254,171 @@ textarea{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
+#rcolumn {
+    width: 220px;
+    float: right;
+    background: white;
+    padding: 25px;
+    border: 3px solid #cccccc;
+    margin-right: 28px;
+    /* align-self: center; */
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 300px;
+    float: right;
+    margin-top: 35px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+#rcolumn {
+    width: 220px;
+    float: right;
+    background: white;
+    padding: 0px;
+    border: 3px solid #cccccc;
+    margin-right: 28px;
+    /* align-self: center; */
+    /* margin-bottom: -40px; */
+}
+header h1 {
+    background: teal;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+    margin-left: 4px;
+}
+aside ul li a img {
+    height: 40%;
+    width: 40%;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    margin-right: 28p;
+    margin-bottom: 10px;
+}
+
+aside {
+    text-align: center;
+    margin-right: 30px;
+}
+
+nav {
+    width: 400px;
+    float: right;
+    margin-top: 47px;
+    text-align: center;
+}
+/*For debugging purposes change bg color to green to alert change to 980px*/
+@media screen and (max-width: 980px) {
+    .wrapper {
+      background-color: green;
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+        width: fit-content;
+    }
+}
+/*For debugging purposes change bg color to yellow to alert change to 980px*/
+
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+   /*Remove the below tag later*/
+    .wrapper {
+      background-color:yellow;
+      width: 700px;
+    margin: 0 auto;
+    }
+
+    header {
+        background: white;
+        border-bottom: 3px solid #cccccc;
+        margin-bottom: 30px;
+        width: fit-content;
+    }
+
+    #lcolumn {
+        width: 672px;
+        float: left;
+        background: white;
+        padding: 25px;
+        border: 3px solid #cccccc;
+    }
+
+    #rcolumn {
+        width: 672px;
+        float: right;
+        background: white;
+        padding: 0px;
+        border: 3px solid #cccccc;
+        margin-right: 28px;
+        /* align-self: center; */
+        /* margin-bottom: -40px; */
+        margin-top: 20px;
+    }
+    nav {
+        width: 360px;
+        float: right;
+        margin-top: 47px;
+        text-align: center;
+    }
+    #rcolumn ul li img {
+        width: 60px;
+        transition-timing-function: linear;
+        transition-duration: 1s;
+        padding-left: -23px;
+        margin-left: 100px;
+    }
+}
+/*For debugging purposes change bg color to red to alert change to 640px*/
+
+    @media screen and (max-width: 640px) {
+        /* The body's bg color will be #333 */
+       /*Remove the below tag later*/
+        .wrapper {
+          background-color: red;
+          width: 600px;
+          margin: 0 auto;
+      }
+
+    nav {
+        /* width: 275px; */
+        /* float: right; */
+        /* margin-top: 47px; */
+        /* text-align: center; */
+        margin-right: 157px;
+        margin-top: -36px;
+    }
+
+    header h1 {
+        background: teal;
+        color: white;
+        display: inline-block;
+        padding: 30px;
+        font-size: 30px;
+        margin-left: 4px;
+        width: 593px;
+        text-align: center;
+    }
+        #rcolumn {
+            width: 572px;
+        }
+        #lcolumn{
+            width: 572px;
+        }
+
+
+
+
+    }
